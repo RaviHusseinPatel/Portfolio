@@ -9,7 +9,7 @@ import {BiMessageAdd} from 'react-icons/bi'
 const Nav = () => {
     return (
       <nav>
-        <a href="#"><BiHomeCircle/></a>
+        <a href="#" className="active"><BiHomeCircle/></a>
         <a href="#about"><BiUserCircle/></a>
         <a href="#experience"><MdWorkOutline/></a>
         {/* <a href="#services"><GrServices/></a> */}
