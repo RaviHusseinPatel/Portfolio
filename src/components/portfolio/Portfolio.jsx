@@ -8,7 +8,7 @@ const data =[
 id: 1,
 image: WorldPin,
 title:'WorldPin-React API',
-github: "https://github.com/bendesousa/bnta_capstone_project",
+github: "https://github.com/bendesousa/bnta_capstone_project" ,
 demo:  "www.google.com",
 },
 {
@@ -44,7 +44,7 @@ const Portfolio = () => {
           </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
-              <a href={github} className="btn"><VscSourceControl/>Source Code</a>
+              <a href={github} className="btn"  target="_blank"><VscSourceControl/>Source Code</a>
               <a href={demo} className="btn btn-primary" target="_blank">Code Walkthrough</a>
             </div>
         </article>
