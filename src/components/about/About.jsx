@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about_icon"/>
               <h5>Clients</h5>
-              <small>85+ Worldwide</small>
+              <small>20+ Worldwide</small>
             </article>
 
             <article className="about__card">
@@ -38,12 +38,13 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate ea porro tempore totam ullam, quisquam adipisci eos eum ad ipsam excepturi expedita modi maxime sunt quo optio, natus molestiae!
-          </p>
+I am an aspiring React Developer with a years experience in creating both Backend and Frontend APIs. I am an Economics Graduate with 2+ years in client facing roles, providing me with base skills every developer needs - the ability to not only explain your code, but ask the right questions and understand how others program. This is something I was able to showcase at the BrightNetwork Bootcamp, with our final group projects shown below. </p>
 
           <a href="#contact" className="btn btn-primary">Reach Out</a>
         </div>
       </div>
+      <br></br>
+      <h2>Why I Program</h2>
       </section>
     )
   };

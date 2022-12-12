@@ -16,7 +16,7 @@ const Nav = () => {
         <a href="#experience" onClick={()=> setActiveIcon('#experience')} className={activeIcon === '#experience'? 'active' : ''}><GiSkills/></a> */}
         {/* <a href="#contact" onClick={()=> setActiveIcon('#contact')} className={activeIcon === '#contact'? 'active' : ''}><BiMessageAdd/></a> */}
           <li>
-              <Link activeClass="active" smooth spy to="#">
+              <Link activeClass="active" smooth spy to="header__container">
               <BiHomeCircle/>
               </Link>
           </li>

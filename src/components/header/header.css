@@ -28,7 +28,10 @@ header {
     gap: 0.7rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 10rem;
+    height: 1px;
+    zoom: 2;
+    
 }
 
 .header__socials::after {

@@ -7,7 +7,7 @@ const data =[
 {
 id: 1,
 image: WorldPin,
-title:'WorldPin-React API',
+title:'WorldPin- React&SpringBoot API',
 github: "https://github.com/bendesousa/bnta_capstone_project" ,
 demo:  "www.google.com",
 },
