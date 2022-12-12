@@ -2,6 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 2rem; 
+    justify-content: center;
+}
+
+.experience_frontend{
+    width: 490px;
 }
 
 .experience__container > div{

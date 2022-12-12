@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+li {
+    cursor: pointer;
+  }
+
 
 :root {
     --color-bg: #1f1f38;
@@ -139,3 +143,7 @@ object-fit: cover;
         margin-bottom: 2rem;
     }
 }
+
+
+
+
