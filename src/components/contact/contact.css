@@ -5,6 +5,12 @@
     gap: 12%;
 }
 
+::placeholder {
+    color: var(--color-primary);
+    opacity: .7;
+    font-style: italic;
+  }
+
 .contact__options {
     display: flex;
     flex-direction: column;
@@ -62,6 +68,8 @@ input, textarea{
         gap: 2rem;
     }
     }
+
+
     
 
 /* ----MEDIA QUERIES (SMALL DEVICES)-----*/

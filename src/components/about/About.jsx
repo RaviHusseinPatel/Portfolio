@@ -8,7 +8,7 @@ const About = () => {
     return (
       <section id="about">
        <h5> A little </h5>
-       <h2>About Me</h2>
+       <h2>About Me & Why I program</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -38,13 +38,20 @@ const About = () => {
             </article>
           </div>
           <p>
-I am an aspiring React Developer with a years experience in creating both Backend and Frontend APIs. I am an Economics Graduate with 2+ years in client facing roles, providing me with base skills every developer needs - the ability to not only explain your code, but ask the right questions and understand how others program. This is something I was able to showcase at the BrightNetwork Bootcamp, with our final group projects shown below. </p>
+          As an aspiring React developer with a year of experience building backend and frontend APIs, I have strong communication skills and a deep understanding of how to work with others. My experience in client-facing roles and as a tutor has given me the ability to ask the right questions and learn from others, which is a crucial skill for any developer.
+          I was able to demonstrate these skills during the BrightNetwork Technology Academy, where our group's final projects received recognition for being both creative and efficient. <br/> <br/>
+              </p>
+              <p className="why">
+              Programming is important because it allows us to harness the power of engineering to improve the lives of people on a daily basis. 
+              This is what motivates me to code. The ability to be vreative and collaborate with like-minded individuals from around the world to solve complex problems using technology however, is what excites me about this field.
+              </p>
+              
 
-          <a href="#contact" className="btn btn-primary">Reach Out</a>
+
+          <a href="#contact" className="btn btn-primary" id="reachout">Reach Out</a>
         </div>
       </div>
-      <br></br>
-      <h2>Why I Program</h2>
+      
       </section>
     )
   };

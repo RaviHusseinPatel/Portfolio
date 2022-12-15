@@ -69,6 +69,10 @@ margin: 2rem 0 2.6rem;
 color: var(--color-light);
 }
 
+#reachout{
+    left: 100px;
+}
+
 /* ----MEDIA QUERIES (MEDIUM DEVICES)-----*/
 
 @media screen and (max-width:1024px){
@@ -87,6 +91,17 @@ color: var(--color-light);
     }
     }
     
+
+ .why{
+    font-weight: bold;
+    color: black;
+    color-scheme: white;
+    background-color: var(--color-bg-variant);
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+}
 
 /* ----MEDIA QUERIES (SMALL DEVICES)-----*/
 

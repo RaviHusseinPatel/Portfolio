@@ -19,9 +19,6 @@ const App = () => {
        <Testimonials/>
        <Contact/>
        <Footer/>
-     
-       
-       
       </div>
       </>
     )

@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 
 const Nav = () => {
-   const [activeIcon, setActiveIcon] = useState('#')
+  //  const [activeIcon, setActiveIcon] = useState('#')
     return (
       <nav>
         {/* <a href="#" onClick={()=> setActiveIcon('#')} className={activeIcon === '#'? 'active' : ''}><BiHomeCircle/></a> */}
@@ -16,22 +16,35 @@ const Nav = () => {
         <a href="#experience" onClick={()=> setActiveIcon('#experience')} className={activeIcon === '#experience'? 'active' : ''}><GiSkills/></a> */}
         {/* <a href="#contact" onClick={()=> setActiveIcon('#contact')} className={activeIcon === '#contact'? 'active' : ''}><BiMessageAdd/></a> */}
           <li>
-              <Link activeClass="active" smooth spy to="header__container">
+              <Link activeClass="active" 
+              smooth spy
+              offset={0}
+              duration={.006}
+              to="header__container">
               <BiHomeCircle/>
               </Link>
           </li>
           <li>
-              <Link activeClass="active" smooth spy to="about">
+              <Link activeClass="active" smooth spy
+                            offset={-15} 
+
+              duration={.006}
+               to ="about">
               <BiUserCircle/>
               </Link>
           </li>
           <li>
-              <Link activeClass="active" smooth spy to="experience">
+              <Link activeClass="active" smooth spy
+              offset={15} 
+              duration={.006}
+              to="experience">
               <GiSkills/>
               </Link>
           </li>
           <li>
-              <Link activeClass="active" smooth spy to="contact">
+              <Link activeClass="active" smooth spy
+              duration={.006}
+              to="contact">
               <BiMessageAdd/>
               </Link>
            </li>

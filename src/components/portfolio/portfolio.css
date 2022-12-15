@@ -17,6 +17,10 @@
     background: transparent;
 }
 
+.btn-pimary_more{
+    background-color: grey;
+}
+
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;

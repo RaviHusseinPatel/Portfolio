@@ -2,6 +2,7 @@ import "./portfolio.css"
 import WorldPin from '../../assets/WorldPin.jpg'
 import tictactoe from  '../../assets/tictactoe.jpg'
 import {VscSourceControl} from 'react-icons/vsc'
+import {AiFillLock} from 'react-icons/ai'
 
 const data =[
 {
@@ -45,7 +46,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
               <a href={github} className="btn"  target="_blank"><VscSourceControl/>Source Code</a>
-              <a href={demo} className="btn btn-primary" target="_blank">Code Walkthrough</a>
+              <p href={demo} className="btn btn-pimary_more"><AiFillLock/>Code Walkthrough</p>
             </div>
         </article>
     )

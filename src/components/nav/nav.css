@@ -3,7 +3,7 @@ background: rgba(0,0,0,.3);   /*black with some transparency*/
 width:max-content;
 display:block;
 padding: 0.7rem 1.7rem;
- position: fixed; 
+position: fixed; 
 left: 50%; 
 transform: translateX(-50%);
 bottom: 2rem;
@@ -11,6 +11,7 @@ display: flex;
 gap: .8rem;
 border-radius: 6rem;
 backdrop-filter: blur(15px);
+margin-bottom: 20px;
 }
 
 nav a {
