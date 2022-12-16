@@ -12,8 +12,7 @@ const About = () => {
          
         <h5> A little </h5>
         <h2>About Me & Why I program</h2>
-
-        <div className="container about__container">
+           <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
               <img src={dp} alt="About Image"/>

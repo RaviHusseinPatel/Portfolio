@@ -83,7 +83,8 @@ color: var(--color-light);
     background-repeat: no-repeat;
     background-position: center;
     /* background-size:cover ; */
-    display: flex;
+    position: relative;
+    top: 1px;
 }
 
 /* ----MEDIA QUERIES (MEDIUM DEVICES)-----*/
