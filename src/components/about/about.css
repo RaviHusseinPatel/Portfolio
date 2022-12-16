@@ -1,3 +1,7 @@
+/* #about{
+    background-color: rgb(94, 5, 100);
+} */
+
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -71,6 +75,15 @@ color: var(--color-light);
 
 #reachout{
     left: 100px;
+}
+
+.spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size:cover ; */
+    display: flex;
 }
 
 /* ----MEDIA QUERIES (MEDIUM DEVICES)-----*/
