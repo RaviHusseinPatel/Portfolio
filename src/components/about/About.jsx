@@ -45,7 +45,7 @@ const About = () => {
                 </p>
                 <p className="why">
                 Programming is important because it allows us to harness the power of engineering to improve the lives of people on a daily basis. 
-                This is what motivates me to code. The ability to be vreative and collaborate with like-minded individuals from around the world to solve complex problems using technology however, is what excites me about this field.
+                This is what inspires me to code. The ability to be creative and collaborate with like-minded individuals from around the world to solve complex problems using technology however, is what excites me.
                 </p>
                 
             <a href="#contact" className="btn btn-primary" id="reachout">Reach Out</a>
